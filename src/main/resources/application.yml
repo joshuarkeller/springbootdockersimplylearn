@@ -1,0 +1,13 @@
+---
+spring:
+  application:
+    name: simplyproject
+server:
+  port: 9091
+info:
+  artifact: "@project.build.finalName@"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info
