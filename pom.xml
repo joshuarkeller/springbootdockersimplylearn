@@ -32,7 +32,6 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
 				<configuration>
-					<!-- this disables the very strict javadoc enforcement rules added to java 1.8 -->
 					<additionalparam>-Xdoclint:none</additionalparam>
 				</configuration>
 			</plugin>
